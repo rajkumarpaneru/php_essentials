@@ -21,6 +21,24 @@
         echo "Reverse Sort: ";
         print_r($numbers);
         echo "<br />";
+
+        echo "Implode: " . implode(",", $numbers) . "<br />";
+
+        echo in_array(7, $numbers) . "<br />";
+        echo in_array(17, $numbers) . "<br />";
+
+        $info = [
+            "first_name" => "Rajesh",
+            "last_name" => "Hamal"
+        ];
+
+        print_r(array_keys($info));
+        echo "<br />";
+        print_r(array_values($info));
+        echo "<br />";
+        array_push($info, ["age" => 50]);
+        print_r($info);
+
     ?>
 </body>
 </html>
