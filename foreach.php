@@ -12,6 +12,19 @@
          foreach($ages as $age) {
             echo "Age: {$age}<br />";
          }
+
+         $person = [
+            "first_name" => "John",
+            "last_name" => "Smith",
+            "age" => 40,
+            "state" => "CA", 
+            "city" => "Beverly Hills",
+            "zip" => "12345"
+         ];
+
+         foreach ($person as $key => $value){
+            echo "{$key}: {$value}<br />";
+         }
     ?>
 </body>
 </html>
