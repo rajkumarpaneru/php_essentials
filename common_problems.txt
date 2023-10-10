@@ -1,0 +1,34 @@
+Turn On Error Reporting
+
+In php.ini file
+display_errors = On 
+error_reporting = E_ALL
+
+In PHP code: 
+ini_set('display_errors', 'On');
+error_reporting(E_ALL);
+
+error_reporting(E_ALL | E_STRICT);
+
+// use ~ for "omit"
+error_reporting(E_ALL & ~E_DEPRECATED);
+
+// return the current level
+error_reporting();
+
+Error Categories
+
+Fatal error 
+-> PHP understood the code but could not execute it 
+
+Syntax error 
+-> PHP could not understand or process the code 
+
+Warnings 
+-> PHP found a problem but was able to recover 
+
+Notices 
+-> PHP is offering advice
+
+error logging directory:
+apache: /etc/apache2/httpd.conf
