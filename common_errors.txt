@@ -1,0 +1,6 @@
+Common errors:
+    -> typos
+    -> missing semicolon at the end of the line
+    -> missing closing quotaion mark: " '
+    -> Case-sensitive variable names: $myvar vs $myVar 
+    -> = vs == vs === 
